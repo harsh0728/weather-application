@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -14,12 +14,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #6d88bf;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+#weatherInput {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 12px;
+  color: white;
+  font-size: x-large;
+  background: #0f0e0e6b;
+  
+ 
+}
+
+.weather button {
+  padding: 8px;
+  border-radius: 30px;
+  border: none;
+  
 }
